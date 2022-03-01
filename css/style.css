@@ -1,5 +1,4 @@
-
-a, :hover{
+a:hover{
     font-family:'Rowdies' cursive;
     color: #fff;
 
@@ -17,13 +16,11 @@ li{
 
 .header{
     width: 100%;
-    height: 100vh;
     background-color: #4f0505;
 
 }
 .nav-bar{
     width: 90%;
-    height: 80px;
     margin: auto;
     color:white;
     display: flex;
@@ -69,7 +66,7 @@ li{
     transition: all 0.5s ease-in-out;
 }
 .header .nav-bar .social-media li i:hover{
-    background-color: #fff;}
+    background-color: rgb(110, 69, 69);}
 .hero{
     width: 100%
 }
@@ -78,16 +75,16 @@ li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
-    margin: 40px
+    padding-top: 1px;
+    margin: 4px
 }
 .hero .row .left-sec{
     width: 30%;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 .hero .row .left-sec h2{
     font-size: 60px;
-    color: #fff;
+    color: rgb(235, 20, 20);
 }
 
 .hero .row .left-sec p{
@@ -95,24 +92,4 @@ li{
     color: #fff;
     line-height: 30px;
     padding-right: 50px;
-}
-
-.carousel-inner img {
-    position: fixed; top: 25%;
-    position: fixed; right: 14%;
-
-}
-
-.carousel {
-    width: 40%;
-    margin-left: 48%;
-    margin-top: 4%;
-}
-
-.carousel-inner p{
-    color: rgb(228, 207, 207);
-    position: fixed; right: 17%;
-    font-size: 20px;
-    font-style: italic;
-    
 }
